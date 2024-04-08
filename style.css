@@ -1,0 +1,298 @@
+body{
+    color: azure;
+    font-family: "Poppins", sans-serif; 
+    background-image: linear-gradient(to right, #650979, #070F2B);
+}
+
+nav{
+    background-color: linear-gradient(to right, #650979, #070F2B);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    
+}
+.left{
+    display: flex;
+    margin: 0 30px;
+    font-size: 2.50rem;
+
+}
+.right{
+    display: flex;
+    color: white;
+    
+}
+
+.button{
+    background-color: hotpink;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+   margin: 10px 20px;
+
+    font-size: 1rem;
+    align-items: center;
+
+    text-decoration: none;
+
+}
+
+nav ul{
+    display: flex;
+    
+    list-style: none;
+    margin: 0 20px;
+
+}
+nav ul li{
+    color: white;
+    padding: 20px;
+}
+
+
+nav ul li a :hover{
+    text-decoration: none;
+    color: steelblue ;
+
+}
+
+.firstsec {
+     
+    display:block;
+    justify-content: center;
+    margin-top: 150px;
+    height: 50vh;
+    text-align: center;
+
+
+}
+
+#element{
+    margin: 0 5px;
+    font-size: 4.5rem;
+    color: #DA0C81;
+}
+.leftsec{
+    margin: 0 50px;
+    font-size: 3rem;
+}
+
+.coloro{
+   color: #E95793;
+}
+
+.secsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.line{
+    border-top: 1px solid #9290C3;
+    margin: 50px 80px;
+}
+
+.btns{
+    background-color: lavender;
+    margin: 50px 0;
+    padding: 20px;
+    border-radius: 20px;
+
+  border: 20px solid #9290C3;
+  color:hotpink;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.resume{
+    background-color: #9290C3;
+    color: #E95793;
+    padding: 20px;
+    border-radius: 20px;
+    border: 20px solid #9290C3;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+.Education{
+    max-width: 80vw;
+    justify-content: space-around;
+    margin: 50px auto;
+    height: 80vh;
+}
+
+#span{
+    color: burlywood;
+    margin: 1px auto;
+    padding: 10px;
+}
+
+.school{
+    display: inline-block;
+    text-align: center;
+    font-display: flex;
+    margin: auto;
+    border: 10px solid #9290C3;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    background-color: #9290C3;
+    width: 300px;
+    height: 300px;
+    padding-inline: 20px;
+    margin: 22px;
+
+}
+ .Hi{
+    margin: 50px 0;
+    max-width: 80vw;
+    justify-content: space-around;
+    margin: 50px auto;
+    
+    
+ }
+
+.Institute{
+    
+    color: pink;
+    
+}
+
+.secsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+
+.school:hover{
+    background-color: #E95793;
+    color: #070F2B;
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.img{
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    margin: 50px 100px;
+    border-radius: 350px;
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+    overlay: hidden;
+}
+.aboutme{
+
+    text-align: right; 
+    margin-top: 20px;
+    letter-spacing: 2px;
+    color: #E95793;
+    font-size: 1.2rem;
+    text-transform:inherit;
+}
+
+.skills{
+    max-width: 80vw;
+    justify-content: space-around;
+    margin: 50px auto;
+    height: 160vh;
+}
+
+.skill-box{
+    display:  inline-block;
+    border: 10px solid #9290C3;
+   width: auto;
+   padding-top: 20px;
+    font-display: flex;
+    margin: 40px ;
+    border: 10px solid #9290C3;
+    font-size: 1rem;
+    border-radius: 20px;
+    background-color: #9290C3;
+    width: 400px;
+    height: 400px;
+    padding-inline: 20px;
+    position: relative;
+  
+   
+}
+
+
+
+footer{
+    background-image: linear-gradient(to right, #82119c, #09174a);
+    height: 500px;
+    color: turquoise;
+    text-align: center;
+
+}
+
+.footer{
+    display: inline-block;
+    margin: 120px 20px;
+    text-align: center;
+    justify-content: baseline;
+
+}
+
+.github img{
+    height: 50px;
+    width: 50px;
+   
+}
+
+.insta img{
+    height: 30px;
+    width: 30px;
+  
+}
+
+.linkedin img{
+    height: 30px;
+    width: 30px;
+    
+    
+}
+
+
+.mail img{
+    height: 30px;
+    width: 30px;
+    
+}
+
+
+
+
+.images{
+    margin: 30px 100px;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin: 0 200px;
+    padding: 0% 320px;
+
+}
+
+.images:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+    overlay: hidden;
+}
