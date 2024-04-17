@@ -92,38 +92,33 @@ nav ul li a :hover{
     margin: 50px 80px;
 }
 
-.btns{
-    background-color: lavender;
-    margin: 50px 0;
-    padding: 20px;
-    border-radius: 20px;
+#resume{
+    
+    background-color: palevioletred; 
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
 
-  border: 20px solid #9290C3;
-  color:hotpink;
+#Gitthub{
+    background-color: #9290C3; 
+    border-radius: 5px;
+  border: none;
+  color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 5px;
 }
 
-.resume{
-    background-color: #9290C3;
-    color: #E95793;
-    padding: 20px;
-    border-radius: 20px;
-    border: 20px solid #9290C3;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 5px;
-}
+
+
 
 
 
@@ -176,6 +171,85 @@ nav ul li a :hover{
     margin: 50px 0;
 }
 
+.projects {
+
+
+    margin: 2rem auto; /* Add some margin for spacing */
+    max-width: 800px; /* Set a maximum width for responsiveness */
+    text-align: center; /* Center the content within the section */
+  }
+  
+  .projects h2 {
+    margin-bottom: 1rem; /* Add some space below the heading */
+  }
+  
+  .project-container {
+  display: inline-block;
+  width: 100%;
+  justify-content: center;
+
+     /* Arrange projects horizontally */
+    flex-wrap: wrap; /* Allow projects to wrap on smaller screens */
+    justify-content: space-between; /* Distribute projects evenly */
+    margin: 0px auto; /* Center the container horizontally */
+  }
+  
+
+  .level{
+    text-align: center;
+  }
+  .project {
+
+    display: block;
+    
+    margin: 1rem; /* Add some margin between projects */
+    text-align: center; /* Left-align project details */
+    width: 600px;
+    border: 10px solid #9290C3; /* Add a thin border */
+    color: #DA0C81;
+    background-color: #9290C3;
+    padding: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
+    transition: all 0.2s ease-in-out; /* Smooth hover effect */
+  }
+  
+  .project:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
+    background-color: #E95793;
+    color: #070F2B;
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+  }
+  
+  .project img {
+    width: 100%; /* Make image fill the project width */
+    display: block; /* Ensure image takes up full width */
+    margin-bottom: 1rem; /* Add space below image */
+  }
+  
+  .project h3,
+  .project p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .project a {
+    color: #000; /* Set link color */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .project a:hover {
+    color: blue; /* Change link color on hover */
+
+  }
+
+
+
+
+
+
+
+
+
 
 .school:hover{
     background-color: #E95793;
@@ -214,7 +288,8 @@ img:hover{
     height: 160vh;
 }
 
-.skill-box{
+.skillbox{
+    
     display:  inline-block;
     border: 10px solid #9290C3;
    width: auto;
@@ -225,15 +300,20 @@ img:hover{
     font-size: 1rem;
     border-radius: 20px;
     background-color: #9290C3;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     padding-inline: 20px;
     position: relative;
   
    
 }
 
-
+.skillbox:hover{
+    background-color: #E95793;
+    color: #000;
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
 
 footer{
     background-image: linear-gradient(to right, #82119c, #09174a);
