@@ -2,6 +2,18 @@
     scroll-behavior: smooth !important
 }
 
+
+#projects{
+    scroll-behavior: smooth !important;
+}
+
+#about{
+    scroll-behavior: smooth !important;
+}
+
+#Skills{
+    scroll-behavior: smooth !important;
+}
 body{
     color: azure;
     font-family: "Poppins", sans-serif; 
