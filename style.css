@@ -1,7 +1,12 @@
+*{
+    scroll-behavior: smooth !important
+}
+
 body{
     color: azure;
     font-family: "Poppins", sans-serif; 
     background-image: linear-gradient(to right, #650979, #070F2B);
+    scroll-behavior: smooth;
 }
 
 nav{
