@@ -8,6 +8,16 @@ body{
     background-image: linear-gradient(to right, #650979, #070F2B);
     scroll-behavior: smooth;
 }
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+header{
+    top: 1px;
+    position: -webkit-sticky;
+}
 
 nav{
     background-color: linear-gradient(to right, #650979, #070F2B);
@@ -15,6 +25,9 @@ nav{
     justify-content: space-between;
     align-items: center;
     height: 100px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 1px;
     
 }
 .left{
@@ -124,7 +137,12 @@ nav ul li a :hover{
 
 
 
+.edu{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
 
+}
 
 
 .Education{
@@ -293,6 +311,11 @@ img:hover{
     height: 160vh;
 }
 
+.skill-boxes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .skillbox{
     
     display:  inline-block;
@@ -300,7 +323,7 @@ img:hover{
    width: auto;
    padding-top: 20px;
     font-display: flex;
-    margin: 40px ;
+    margin: 80px ;
     border: 10px solid #9290C3;
     font-size: 1rem;
     border-radius: 20px;
