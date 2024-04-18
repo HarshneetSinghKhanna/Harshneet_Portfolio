@@ -68,6 +68,28 @@ nav{
 
 }
 
+
+#resume:hover{
+    background-color: plum;
+    color: #070F2B;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+
+}
+
+#Gitthub:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+
+.button:hover{
+    background-color: #9290C3;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
 nav ul{
     display: flex;
     
@@ -425,3 +447,5 @@ footer{
     transition: 0.5s ease-in-out;
     overlay: hidden;
 }
+
+
