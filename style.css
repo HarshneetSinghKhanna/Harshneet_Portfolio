@@ -68,9 +68,18 @@ nav{
 
 }
 
+.abtme{
+    font-size: 1.6rem;
+    margin-left: 80px;
+}
+
+.bruh{
+    font-size: 3.3rem;
+
+}
 
 #resume:hover{
-    background-color: plum;
+    background-color: rgba(115, 42, 115, 0.753);
     color: #070F2B;
     transition: 0.5s ease-in-out;
     transform: scale(1.1);
@@ -146,7 +155,7 @@ nav ul li a :hover{
 
 #resume{
     
-    background-color: palevioletred; 
+    background-color: hotpink; 
     border: none;
     border-radius: 5px;
     color: white;
@@ -197,7 +206,7 @@ nav ul li a :hover{
     text-align: center;
     font-display: flex;
     margin: auto;
-    border: 10px solid #9290C3;
+    border: 2px solid #9290C3;
     font-size: 1.2rem;
     border-radius: 20px;
     background-color: #9290C3;
@@ -220,7 +229,6 @@ nav ul li a :hover{
 
 .Institute{
     
-    color: pink;
     
 }
 
@@ -255,10 +263,10 @@ h4{
   width: 100%;
   justify-content: center;
 
-     /* Arrange projects horizontally */
-    flex-wrap: wrap; /* Allow projects to wrap on smaller screens */
-    justify-content: space-between; /* Distribute projects evenly */
-    margin: 0px auto; /* Center the container horizontally */
+
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    margin: 0px auto; 
   }
   .level{
     margin: 50px 120px;
@@ -268,21 +276,22 @@ h4{
 
     display: block;
     
-    margin: 1rem; /* Add some margin between projects */
-    text-align: center; /* Left-align project details */
+    margin: 1rem; 
+        text-align: center; 
     width: 600px;
-    border: 10px solid #9290C3; /* Add a thin border */
+    border: 5px solid #9290C3; /* Add a thin border */
     color: white;
     background-color: #9290C3;
     padding: 1rem;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
     transition: all 0.2s ease-in-out; 
+    border-radius: 20px;
   }
   
   .project:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
-    background-color: #E95793;
-    color: #070F2B;
+    background-color: rgba(115, 42, 115, 0.753);
+    color: white;
     transform: scale(1.1);
     transition: 0.5s ease-in-out;
   }
@@ -318,8 +327,8 @@ h4{
 
 
 .school:hover{
-    background-color: #E95793;
-    color: #070F2B;
+    background-color: rgba(115, 42, 115, 0.753) ;
+    color: white;
     transform: scale(1.1);
     transition: 0.5s ease-in-out;
 }
@@ -380,8 +389,8 @@ img:hover{
 }
 
 .skillbox:hover{
-    background-color: #E95793;
-    color: #000;
+    background-color: rgba(115, 42, 115, 0.753);
+    color: white;
     transform: scale(1.1);
     transition: 0.5s ease-in-out;
 }
