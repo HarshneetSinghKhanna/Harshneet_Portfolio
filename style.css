@@ -185,7 +185,9 @@ nav ul li a :hover{
     margin: 22px;
 
 }
+
  .Hi{
+    font-size: 1.7rem;
     margin: 50px 0;
     max-width: 80vw;
     justify-content: space-around;
@@ -200,6 +202,14 @@ nav ul li a :hover{
     
 }
 
+
+#Skills{
+    font-size: 1.7rem;
+}
+
+h4{
+    font-size: 1.3rem;
+}
 .secsection{
     display: flex;
     justify-content: space-around;
@@ -228,10 +238,9 @@ nav ul li a :hover{
     justify-content: space-between; /* Distribute projects evenly */
     margin: 0px auto; /* Center the container horizontally */
   }
-  
-
   .level{
-    text-align: center;
+    margin: 50px 120px;
+    text-align: left;
   }
   .project {
 
@@ -241,11 +250,11 @@ nav ul li a :hover{
     text-align: center; /* Left-align project details */
     width: 600px;
     border: 10px solid #9290C3; /* Add a thin border */
-    color: #DA0C81;
+    color: white;
     background-color: #9290C3;
     padding: 1rem;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
-    transition: all 0.2s ease-in-out; /* Smooth hover effect */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+    transition: all 0.2s ease-in-out; 
   }
   
   .project:hover {
@@ -268,12 +277,12 @@ nav ul li a :hover{
   }
   
   .project a {
-    color: #000; /* Set link color */
-    text-decoration: none; /* Remove underline from links */
+    color: #000; 
+    text-decoration: none; 
   }
   
   .project a:hover {
-    color: blue; /* Change link color on hover */
+    color: blue; 
 
   }
 
