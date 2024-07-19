@@ -455,36 +455,72 @@ footer{
 
 
 
-.images{
-    margin: 30px 100px;
-    width: 30%;
-    justify-content: space-around;
-    align-items: center;
+.image{
+    margin-left: 50px;
+    position: relative;
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    
+}
+
+.imaze{
+    display: block;
+width: 100%;
+border-radius: 20px;
+}
+
+.content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+}
+
+.content > *{
+    transform: translateY(20px);
+    transition: 0.25s;
+}
+
+.content:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.contenr:hover > *{
+    transform: translateY(0px);
+}
+.content h2{
+    font-size: 2rem;
+    margin: 0;
+}
+
+.xps{
     display: flex;
-    margin: 0 200px;
-    padding: 0% 320px;
-
+    flex-direction: row;
+    font-size: 1.5rem;
+    justify-content: center;
+   
 }
 
-.images:hover{
-    transform: scale(1.1);
-    transition: 0.5s ease-in-out;
-    overlay: hidden;
+#site{
+    margin-bottom: 60px;
+    font-size: 1.5rem;
+    color: steelblue;
 }
 
 
-
-.logos{
+#work{
     display: flex;
     justify-content: space-around;
     margin: 50px 0;
-    border-radius: 200px;
+    font-size: 3.6em;
 }
-
-.logos img{
-    height: 300px;
-    width: 350px;
-    border-radius: 20px;
-}
-
-
