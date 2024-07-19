@@ -54,11 +54,13 @@ nav{
     
 }
 
+
+
 .button{
     background-color: hotpink;
     color: white;
     padding: 10px 20px;
-    border-radius: 50px;
+    border-radius: 60px;
    margin: 10px 20px;
 
     font-size: 1rem;
@@ -69,13 +71,26 @@ nav{
 }
 
 .abtme{
-    font-size: 1.6rem;
-    margin-left: 80px;
+    font-size: 1.8rem;
+    margin-left: 700px;
+    align-items: center;
+    margin-top: 50px;
 }
 
-.bruh{
-    font-size: 3.3rem;
+#bruh{
+    margin-left: 570px;
+    font-size: 4em;
 
+}
+
+#projects{
+    margin-left: 570px;
+    font-size: 4em;
+}
+
+#edu{
+    margin-left: 480px;
+    font-size: 2.8em;
 }
 
 #resume:hover{
@@ -112,7 +127,7 @@ nav ul li{
 }
 
 
-nav ul li a :hover{
+nav ul li a:hover{
     text-decoration: none;
     color: steelblue ;
 
