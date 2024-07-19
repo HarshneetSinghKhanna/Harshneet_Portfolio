@@ -458,3 +458,18 @@ footer{
 }
 
 
+
+.logos{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    border-radius: 200px;
+}
+
+.logos img{
+    height: 300px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+
